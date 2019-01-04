@@ -4,10 +4,10 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title></title>
+  <title>MC Makler</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,600,700" rel="stylesheet">
 </head>
 
 <body>
@@ -18,7 +18,7 @@
     <img src="./images/logo.svg" class="logo" alt="Logo" />
     <div class="contact-info">
       <p>Kostenlose Service-Hotline</p>
-      <a href="tel:8005008002">0800 500 80 02</a>
+      <a href="tel:8005008002"> <img src="./images/phone.svg" alt="phone"/><span>0800 500 80 02</span></a>
     </div>
   </header>
   <!-- /header -->
@@ -26,7 +26,7 @@
   <main>
 
     <section class="center-content">
-      <h2>Vielen Dank fur Ihr Interesse <br> an der vons uns angebotenen Immobilie</h2>
+      <h2>Vielen Dank fur Ihr Interesse <br> <span class="subtext"> an der vons uns angebotenen Immobilie</span></h2>
       <p>Im Folgenden finden Sie alle verfuggbaren Unterlagen zum Download.</p>
     </section>
 
@@ -38,34 +38,185 @@
         <div class="card-content">
           <img src="./images/property_001.jpg" alt="Item Property">
           <ul>
-            <li> <label>Our id</label> 123456789 </li>
+            <li> <label>Our id</label>123456789 </li>
             <li> <label>Address</label>Finkenweg 81a, 12357 Berlin</li>
-            <li> <label>Price</label>2130.000 E</li>
+            <li> <label>Price</label>2130.000 €</li>
             <li> <label>Total Flor Space</label>254 m<sup>2</sup></li>
             <li> <label>Rooms</label>7</li>
           </ul>
           <a href="#" class="download">download expose</a>
         </div>
         <!-- /card content -->
+        <!-- card slider -->
+        <div class="card-slider">
+          <p> <label class="custom-checkbox">
+            <input type="checkbox">
+            <span class="checkmark"></span>
+          </label> 0 / 5</p>
+        </div>
+        <!-- /card-slider-->
+        
         <!-- card listing -->
         <div class="card-listing">
           <ul>
             <li>
               <table>
-                <tr>
+                <tr class="bg-color">
+                  <td>
+                  <label class="custom-checkbox">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                  </label>
+                  </td>
+                  <td><img src="./images/icon-folder.jpg" alt="folder">Images</td>
                   <td></td>
-                  <td><img src="./images/icon-pdf.jpg" alt="pdf">Test Street 123</td>
-                  <td>Building Plan, Images, Ground Plot, Entry in the land register</td>
-                  <td> <a href="#"><img src="./images/icon-preview.png" alt="download"/></a> <a href="#"><img src="./images/icon-download.png" alt="download"/></a></td>
+                  <td><a href="#"><img src="./images/icon-download.png" class="download" alt="download"/></a></td>
                 </tr>
+               </table>
+               <table class="sub-table">
+                <tr>
+                  <td>
+                  <label class="custom-checkbox">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                  </label>
+                  </td>
+                  <td>
+                    <img src="./images/icon-pic.jpg" alt="image">
+                    <div class="list-info">
+                      <p>Image</p>
+                      <p>Images</p>
+                    </div>
+                  </td>
+                  <td> <a href="#"><img src="./images/icon-preview.png" class="preview" alt="preview"/></a> <a href="#"><img src="./images/icon-download.png" class="download" alt="download"/></a></td>
+                </tr>
+                <tr>
+                  <td>
+                  <label class="custom-checkbox">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                  </label>
+                  </td>
+                  <td>
+                    <img src="./images/icon-pic.jpg" alt="image">
+                    <div class="list-info">
+                      <p>Image</p>
+                      <p>Images</p>
+                    </div>
+                  </td>
+                  <td> <a href="#"><img src="./images/icon-preview.png" class="preview" alt="preview"/></a> <a href="#"><img src="./images/icon-download.png" class="download" alt="download"/></a></td>
+                </tr>
+                <tr>
+                  <td>
+                  <label class="custom-checkbox">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                  </label>
+                  </td>
+                  <td>
+                    <img src="./images/icon-pic.jpg" alt="image">
+                    <div class="list-info">
+                      <p>Image</p>
+                      <p>Images</p>
+                    </div>
+                  </td>
+                  <td> <a href="#"><img src="./images/icon-preview.png" class="preview" alt="preview"/></a> <a href="#"><img src="./images/icon-download.png" class="download" alt="download"/></a></td>
+                </tr>
+               </table>
+            </li>
+            <li>
+              <table>
+                <!-- list item -->
+                <tr>
+                  <td>
+                  <label class="custom-checkbox">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                  </label>
+                  </td>
+                  <td><img src="./images/icon-pdf.jpg" alt="pdf">
+                  <div class="list-info">
+                    <p>Test Street 123</p>
+                    <p>Building Plan, Images, Ground Plot, Entry in the land register</p>
+                  </div>
+                  </td>
+                  <td> <a href="#"><img src="./images/icon-preview.png" class="preview" alt="preview"/></a> <a href="#"><img src="./images/icon-download.png" class="download" alt="download"/></a></td>
+                </tr>
+                <!-- /list-item -->
+                <!-- list item -->
+                <tr>
+                  <td>
+                  <label class="custom-checkbox">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                  </label>
+                  </td>
+                  <td><img src="./images/icon-doc.jpg" alt="doc">
+                  <div class="list-info">
+                    <p>Energy Certificate</p>
+                    <p>Energy Certificate</p>
+                  </div>
+                  </td>
+                  <td> <a href="#"><img src="./images/icon-preview.png" class="preview" alt="preview"/></a> <a href="#"><img src="./images/icon-download.png" class="download" alt="download"/></a></td>
+                </tr>
+                <!-- /list-item -->
+                <!-- list item -->
+                <tr>
+                  <td>
+                  <label class="custom-checkbox">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                  </label>
+                  </td>
+                  <td><img src="./images/icon-pic.jpg" alt="pic">
+                  <div class="list-info">
+                    <p>OA-Paper</p>
+                    <p>OA-Paper</p>
+                  </div>
+                  </td>
+                  <td> <a href="#"><img src="./images/icon-preview.png" class="preview" alt="preview"/></a> <a href="#"><img src="./images/icon-download.png" class="download" alt="download"/></a></td>
+                </tr>
+                <!-- /list-item -->
+                <!-- list item -->
+                <tr>
+                  <td>
+                  <label class="custom-checkbox">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                  </label>
+                  </td>
+                  <td><img src="./images/icon-pp.jpg" alt="pic">
+                  <div class="list-info">
+                    <p>Innenraum</p>
+                    <p>Floorplan</p>
+                  </div>
+                  </td>
+                  <td> <a href="#"><img src="./images/icon-preview.png" class="preview" alt="preview"/></a> <a href="#"><img src="./images/icon-download.png" class="download" alt="download"/></a></td>
+                </tr>
+                <!-- /list-item -->
+                <!-- list item -->
+                <tr>
+                  <td>
+                  <label class="custom-checkbox">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                  </label>
+                  </td>
+                  <td><img src="./images/icon-zip.jpg" alt="zip">
+                  <div class="list-info">
+                    <p>Fotosession</p>
+                    <p>92 Fotos, innenancsicht, auBensicht</p>
+                  </div>
+                  </td>
+                  <td> <a href="#"><img src="./images/icon-preview.png" class="preview" alt="preview"/></a> <a href="#"><img src="./images/icon-download.png" class="download" alt="download"/></a></td>
+                </tr>
+                <!-- /list-item -->
               </table>
             </li>
-           
           </ul>
         </div>
         <!-- /card listing -->
       </div>
-      <!-- /item -->
     </div>
     <!-- /cards -->
   </main>
