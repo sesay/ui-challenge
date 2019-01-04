@@ -1,3 +1,125 @@
-p {
-    color: green;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto,sans-serif', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.733; 
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    &:hover {
+        color: inherit;
+    }
+}
+
+#global-header {
+    display: flex;
+    padding: 0 20px;
+    min-height: 70px;
+    border-bottom: 1px solid #dadada;
+    .logo {
+        width: 150px;
+    }
+    .contact-info {
+        margin-left: auto;
+        color: #c2c2c2;
+        display: flex;
+        align-items: center;
+        a {
+            color: #333;
+            font-weight: 400;
+            text-decoration: underline;
+        }
+    }
+}
+
+.center-content {
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    font-size: 20px;
+    font-weight: 300;
+    h2 {
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 1.2;
+    }
+    p {
+        margin-top: 5px;
+    }
+}
+
+.cards {
+    max-width: 1090px;
+    margin: auto;
+    border: 1px solid #dadada;
+    .card-content {
+        display: flex;
+        align-items: flex-start;
+        padding: 30px 35px;
+        ul {
+            li {
+                font-weight: 400;
+                label {
+                    display: inline-block;
+                    font-weight: 500;
+                    color: #aaa;
+                    font-size: 13px;
+                    text-transform: uppercase;
+                }
+            }
+        }
+        img {
+            width: 140px;
+            margin-right: 20px;
+        }
+        a {
+            background: #f4bc41;
+            color: #fff;
+            text-transform: uppercase;
+            margin-left: auto;
+            padding: 15px 20px;
+            font-weight: 500;
+        }
+    }
+}
+
+.card-listing {
+    li {
+        table {
+            width: 100%;
+            tr {
+            border-top: 2px solid #dadada;
+            height: 75px;
+            display: flex;
+            align-items: center;
+            td {
+                display: flex;
+                align-items: center;
+                &:nth-child(3) {
+                    font-weight: 500;
+                    color: #aaa;
+                    font-size: 13px;
+                }
+            }
+         }
+        }
+    }
+}
+
+.icon {
+    display: inline-block;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    border:1px solid red;
 }

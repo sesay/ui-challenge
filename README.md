@@ -17,3 +17,6 @@ yarn serve
 This repo uses [parceljs](https://parceljs.org/) and contains support for [SCSS](https://sass-lang.com/)
 - You are free to use any framework/pre-processor.
 - Use icons/assets wherever required.
+
+#Issues
+Design UI , has no style guide making it difficult to achieve pixel perfection
